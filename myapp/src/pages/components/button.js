@@ -8,8 +8,8 @@ export default function Button() {
 
     /* Esto es jsx */ 
     return (
-      <button>Aceptar</button>,
-      <button>Cancelar</button>
+      <button type="button" aria-label="Accept">ACEPTAR</button>
+
     );
   
 }

@@ -1,4 +1,4 @@
- export const videos = [
+ const videos = [
     {
       id: 1,
       title: "Video 1",
@@ -11,4 +11,4 @@
     }
   ];
 
-  
+  export default videos;
