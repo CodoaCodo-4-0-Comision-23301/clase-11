@@ -9,7 +9,7 @@ const Media = () => {
 <ul>
     {videos.map(data => (
         <li key={data.id}>
-            <h2>{data.title}</h2>
+            <h2 className="titulo">{data.title}</h2>
             <video width="420" height="270" src={data.src} controls />
             <br/>
             <Input placeholder="Escribe algo" />

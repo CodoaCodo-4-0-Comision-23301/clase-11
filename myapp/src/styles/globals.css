@@ -39,6 +39,11 @@
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
 } */
+.titulo{
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+}
 .button{
   background-color: white;
 }
@@ -96,7 +101,7 @@ input{
   width: 290PX;
 }
 button {
-  background-color: #4CAF50;
+  background-color: #008CBA;
   border: none;
   color: white;
   padding: 10px 20px;
@@ -112,9 +117,13 @@ button {
 }
 
 button:hover {
-  background-color: #008CBA;
+  background-color: #088c19;
   color: white;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.24),
+}
+
+button:active{
+  background-color: #008CBA;
 }
 
 body {
